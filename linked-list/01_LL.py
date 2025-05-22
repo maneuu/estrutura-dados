@@ -11,7 +11,7 @@ class LinkedList:
 
     def append(self, value):
         new_node = Node(value)
-        if self.head is None:
+        if self.head is None:                     
             self.head = new_node
             self.tail = new_node
         else:
